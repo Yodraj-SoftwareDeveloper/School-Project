@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+/* Navbar part Started */
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: #ecf2f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar > img{
+    height: 70px;
+    width: 200px;
+}
+
+.navElements{
+    padding: 10px 10px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+.navElements > p>a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.color-1:hover{ background-color: red;  cursor: pointer; color: white;}
+.color-2:hover{ background-color: orange;  cursor: pointer; color: white;}
+.color-3:hover{ background-color: #ffa500;  cursor: pointer; color: white;}
+.color-4:hover{ background-color: green;  cursor: pointer; color: white;}
+.color-5:hover{ background-color: rgb(37, 178, 234);  cursor: pointer; color: white;}
+.color-6:hover{ background-color: purple;  cursor: pointer; color: white;}
+.color-7:hover{ background-color: rgb(223, 91, 113);  cursor: pointer; color: white;}
+
+.navElements > i{
+    margin-right: 3%;
+}
+
+/* Navbar part completed */
+
+/* Slidebar part started */
+
+.slidebar{
+    height: 400px;
+    width: 100%;
+    border: 1px solid red;
+}
+.slidebar>h1{
+    margin : 200px 200px;
+}
+
+/* Slidebar part completed */
