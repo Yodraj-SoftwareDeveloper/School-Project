@@ -14,15 +14,15 @@ font-family: 'Fira Sans', sans-serif; */
 .navbar{
     height: 100px;
     width: 100%;
-    background-color: #ecf2f4;
+    background-color: #002366;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Fira Sans', sans-serif
 }
 .navbar > img{
-    height: 70px;
-    width: 200px;
+    height: 100px;
+    width: 120px;
 }
 
 .navElements{
@@ -39,7 +39,7 @@ font-family: 'Fira Sans', sans-serif; */
 
 a{
     text-decoration: none;
-    color: black;
+    color: #FFFFFF;
 }
 
 .color-1:hover{ background-color: red;  cursor: pointer; color: white;}
